@@ -25,10 +25,6 @@ The app combines **AI-powered health assessments**, **fitness & diet tracking**,
 - **Integrations:** 
 ---
 
-## 🧩 Open Source Principles  
-- 📂 Modular & API-First Design  
-- 🔒 Privacy-first, GDPR/HIPAA compliant  
-- 🌐 Community-driven contributions  
-- 🧩 Plugin support for add-ons & integrations  
+
 
 
