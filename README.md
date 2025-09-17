@@ -1,30 +1,16 @@
-# SIH-_-Universal-Medical-Fitness-App
-Open-source Medical Fitness App for SIH 🏥💪. Features AI-driven health assessment, fitness &amp; diet tracking, doctor search with appointments, and emergency alerts. Built on modular, API-first design with privacy compliance. Community-driven, transparent roadmap &amp; contribution-friendly.
-# 🏥 Medical Fitness App – SIH Open Source Project  
+# fittness_app
 
-An open-source **Medical Fitness & Health Management App** designed for **Smart India Hackathon (SIH)**.  
-The app combines **AI-powered health assessments**, **fitness & diet tracking**, and **specialist search with appointment booking**, built with **modular, API-first design** and **privacy compliance**.  
+A new Flutter project.
 
----
+## Getting Started
 
-## ✨ Features  
-- 🤖 AI Health Assessment (symptom checker, risk analysis)  
-- 📊 Fitness & Diet Tracking (steps, calories, workouts, meals)  
-- 👨‍⚕️ Doctor Search & Appointment Booking  
-- 🚨 Emergency SOS & Medicine Reminders  
-- 📈 Health Reports & Analytics  
-- 🌍 Community Challenges & Support Groups  
+This project is a starting point for a Flutter application.
 
----
+A few resources to get you started if this is your first Flutter project:
 
-## 🛠️ Tech Stack  
-- **Frontend:** 
-- **Backend:**  
-- **Database:** 
-- **AI/ML Models:**  
-- **Integrations:** 
----
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-
-
-
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
