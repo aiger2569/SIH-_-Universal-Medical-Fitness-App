@@ -1,3 +1,4 @@
+import 'package:fittness_app/constants/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -49,6 +50,7 @@ class ProfileCard extends StatelessWidget {
                 fontSize: 5.49.sp,
                 fontWeight: FontWeight.w600,
                 color: Colors.black,
+                height: 1.h,
               ),
             ),
             textAlign: TextAlign.center,
@@ -56,7 +58,11 @@ class ProfileCard extends StatelessWidget {
           Text(
             specialty,
             style: GoogleFonts.poppins(
-              textStyle: TextStyle(fontSize: 4.11.sp, color: Colors.grey),
+              textStyle: TextStyle(
+                fontSize: 4.11.sp,
+                height: 1.h,
+                color: Color(0xFFADADAD),
+              ),
             ),
             textAlign: TextAlign.center,
           ),
@@ -64,7 +70,7 @@ class ProfileCard extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Icon(Icons.star, color: Colors.blue, size: 4.57.w),
+              Icon(Icons.star, color: AppColors.brandBlue, size: 4.57.w),
               SizedBox(width: 4.w),
               Text(
                 rating,
@@ -73,12 +79,15 @@ class ProfileCard extends StatelessWidget {
                 ),
               ),
               SizedBox(width: 8.w),
-              Icon(Icons.location_on, color: Colors.grey, size: 4.57.w),
+              Icon(Icons.location_on, color: Colors.grey, size: 4.57.h),
               SizedBox(width: 4.w),
               Text(
                 distance,
                 style: GoogleFonts.poppins(
-                  textStyle: TextStyle(fontSize: 3.66.sp, color: Colors.grey),
+                  textStyle: TextStyle(
+                    fontSize: 3.66.sp,
+                    color: Color(0xFFADADAD),
+                  ),
                 ),
               ),
             ],

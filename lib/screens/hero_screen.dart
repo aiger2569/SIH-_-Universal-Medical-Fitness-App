@@ -385,7 +385,7 @@ class HeroSectionScreen extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(height: 9.6.h),
+            SizedBox(height: 4.6.h),
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 20.w),
               child: Row(
@@ -416,7 +416,7 @@ class HeroSectionScreen extends StatelessWidget {
                 ],
               ),
             ),
-            SizedBox(height: 16.h),
+            SizedBox(height: 4.54.h),
             Padding(
               padding: EdgeInsets.only(left: 20.w),
               child: SingleChildScrollView(

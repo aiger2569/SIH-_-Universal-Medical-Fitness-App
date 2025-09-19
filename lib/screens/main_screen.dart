@@ -1,5 +1,6 @@
 import 'package:fittness_app/screens/WalletScreen.dart';
 import 'package:fittness_app/screens/hero_screen.dart';
+import 'package:fittness_app/screens/lab_report_scree.dart';
 import 'package:flutter/material.dart';
 
 import 'package:fittness_app/screens/meditation_scree.dart';
@@ -23,8 +24,8 @@ class _HeroScreenState extends State<HeroScreen> {
   final List<Widget> screens = [
     HeroSectionScreen(),
     NutrutionScreen(),
+    LabReportScreen(),
     MeditationScree(),
-    Walletscreen(),
     ProfileScreen(),
   ];
 
@@ -50,6 +51,7 @@ class _HeroScreenState extends State<HeroScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: screens[selectedIndex],
       bottomNavigationBar: CustomBottomNavBar(
         selectedIndex: selectedIndex,

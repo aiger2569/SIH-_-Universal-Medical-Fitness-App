@@ -104,9 +104,9 @@ class DashboardCard extends StatelessWidget {
         borderRadius: BorderRadius.circular(5.r),
         boxShadow: [
           BoxShadow(
-            color: Colors.grey.withOpacity(0.1),
-            spreadRadius: 1,
-            blurRadius: 5,
+            color: Colors.grey.withOpacity(0.4),
+            spreadRadius: 1.r,
+            blurRadius: 5.r,
             offset: const Offset(0, 3),
           ),
         ],
@@ -119,8 +119,11 @@ class DashboardCard extends StatelessWidget {
             data["label"]!,
             style: GoogleFonts.poppins(
               textStyle: TextStyle(
+                fontStyle: FontStyle.normal,
+                fontWeight: FontWeight.w500,
                 fontSize: 4.sp,
-                color: const Color(0xFF64748B),
+                color: Colors.black,
+                letterSpacing: 0.h,
               ),
             ),
           ),
@@ -129,8 +132,10 @@ class DashboardCard extends StatelessWidget {
             style: GoogleFonts.poppins(
               textStyle: TextStyle(
                 fontSize: 10.sp,
-                fontWeight: FontWeight.w700,
-                color: const Color(0xFF334155),
+                fontWeight: FontWeight.w600,
+                color: Colors.black,
+                height: 1.5,
+                letterSpacing: 0.h,
               ),
             ),
           ),
@@ -141,8 +146,10 @@ class DashboardCard extends StatelessWidget {
                 data["range"]!,
                 style: GoogleFonts.poppins(
                   textStyle: TextStyle(
+                    fontWeight: FontWeight.w600,
                     fontSize: 3.sp,
-                    color: const Color(0xFF64748B),
+                    color: Colors.black,
+                    letterSpacing: 0,
                   ),
                 ),
               ),
@@ -152,7 +159,8 @@ class DashboardCard extends StatelessWidget {
                   textStyle: TextStyle(
                     fontSize: 3.sp,
                     fontWeight: FontWeight.w600,
-                    color: const Color(0xFF065F46),
+                    height: 1.5.h,
+                    color: const Color(0xFF34A853),
                   ),
                 ),
               ),
